@@ -1,16 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
     <title>Project with splide</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- SVG -->
 
-    <h1>Splide</h1>
-    
+    <svg style="display: none">
+      <symbol id="comma" viewBox="0 0 18 31">
+        <path
+          d="M0 0.5V18.7099H10.7677L6.38256 30.0652H6.76643L17.7163 18.7099V0.5H0Z"
+          fill="#0A3761"
+          fill-opacity="0.06"
+        />
+      </symbol>
+    </svg>
+
+    <main class="main">
+      <div class="main__inner">
+        <div class="main__splide__toggle">
+          <h1>Отзывы участников</h1>
+          <div class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="splide__item">
+                    <div class="splide__item__inner">
+                      <div class="splide__item__name">
+                        <h3>
+                          Алексей <br />
+                          Ичко
+                        </h3>
+                        <div class="splide__item__icons">
+                          <svg class="splide__item__icon">
+                            <use xlink:href="#comma"></use>
+                          </svg>
+
+                          <svg class="splide__item__icon">
+                            <use xlink:href="#comma"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="splide__item__title">
+                        <p class="splide__item__text">
+                          Практикум полностью оправдал ожидания, помог в голове
+                          отдельные знания собрать в структуру, в план действий.
+                          <br />
+                          <br />
+                          Так же большой плюс – это Ваш собственный пример,
+                          пример того, что Вы не только на обучении
+                          рассказываете о систематизации бизнеса, но и сами
+                          успешно внедряете технологии в свою компанию.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="splide__item">
+                    <div class="splide__item__inner">
+                      <div class="splide__item__name">
+                        <h3>
+                          Лариса <br />
+                          Банах
+                        </h3>
+                        <div class="splide__item__icons">
+                          <svg class="splide__item__icon">
+                            <use xlink:href="#comma"></use>
+                          </svg>
+
+                          <svg class="splide__item__icon">
+                            <use xlink:href="#comma"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="splide__item__title">
+                        <p class="splide__item__text">
+                          Практикум полностью оправдал ожидания, помог в голове
+                          отдельные знания собрать в структуру, в план действий.
+                          <br />
+                          <br />
+                          Так же большой плюс – это Ваш собственный пример,
+                          пример того, что Вы не только на обучении
+                          рассказываете о систематизации бизнеса, но и сами
+                          успешно внедряете технологии в свою компанию.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="splide__item">
+                    <div class="splide__item__inner">
+                      <div class="splide__item__name">
+                        <h3>
+                          Виктория <br />
+                          Грилько
+                        </h3>
+                        <div class="splide__item__icons">
+                          <svg class="splide__item__icon">
+                            <use xlink:href="#comma"></use>
+                          </svg>
+
+                          <svg class="splide__item__icon">
+                            <use xlink:href="#comma"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="splide__item__title">
+                        <p class="splide__item__text">
+                          Практикум полностью оправдал ожидания, помог в голове
+                          отдельные знания собрать в структуру, в план действий.
+                          <br />
+                          <br />
+                          Так же большой плюс – это Ваш собственный пример,
+                          пример того, что Вы не только на обучении
+                          рассказываете о систематизации бизнеса, но и сами
+                          успешно внедряете технологии в свою компанию.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <script src="./js/index.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  </body>
 </html>

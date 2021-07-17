@@ -26,5 +26,8 @@
   "homepage": "https://github.com/morevo/javascript-with-splide#readme",
   "devDependencies": {
     "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^2.4.21"
   }
 }
