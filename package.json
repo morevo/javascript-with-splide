@@ -1,0 +1,30 @@
+{
+  "name": "block-with-splide",
+  "version": "1.0.0",
+  "description": "Block with splide ",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "start": "npm run serve && npm run scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morevo/javascript-with-splide.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "jQuery",
+    "HTML",
+    "CSS",
+    "SCSS"
+  ],
+  "author": "<svilohuzov.ivan@gmail.com> (Svilohuzov Ivan)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morevo/javascript-with-splide/issues"
+  },
+  "homepage": "https://github.com/morevo/javascript-with-splide#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
