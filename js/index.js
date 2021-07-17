@@ -1,6 +1,6 @@
 /* Apply splide */
 document.addEventListener("DOMContentLoaded", function () {
-  const splide = new Splide(".splide", {
+  new Splide(".splide", {
     classes: {
       arrows: "splide__arrows-position",
       arrow: "splide__arrow",
@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
     waitForTransition: false,
     pagination: false,
     width: "820px",
-    gap: "26px",
+    padding: {
+      right: "80px",
+    },
   }).mount();
 });

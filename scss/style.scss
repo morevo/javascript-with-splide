@@ -84,6 +84,7 @@ h6 {
 
     /* Username */
     .splide__item__name {
+      position: relative;
       h3 {
         font-family: "MuseoSansCyrl-300";
         margin-bottom: 64px;
@@ -94,6 +95,8 @@ h6 {
     /* Icons */
     .splide__item__icons {
       display: flex;
+      position: absolute;
+      bottom: 0;
 
       .splide__item__icon {
         width: 17.72px;
@@ -116,7 +119,8 @@ h6 {
       font-family: "MuseoSansCyrl-300";
       line-height: 22px;
 
-      &::before {  // ***
+      &::before {
+        // ***
         content: "";
         width: 8px;
         border-radius: 5px;
@@ -145,7 +149,7 @@ h6 {
   background: #fff;
   position: relative;
   width: 100px;
-  top: -32px;
+  top: -34px;
   right: -500px;
 
   & .splide__arrow {
@@ -173,6 +177,11 @@ h6 {
 }
 
 @media (max-width: 900px) {
+  .main {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
   .splide__item__inner {
     padding: 30px 20px 30px 35px;
   }
@@ -190,4 +199,42 @@ h6 {
   }
 }
 
+@media (max-width: 660px) {
+  .main .main__splide__title {
+    font-size: 30px;
+  }
 
+  .main .main__splide__title {
+    margin-bottom: 0;
+  }
+
+  .splide__arrows-position {
+    width: 80px;
+    top: -16px;
+    right: -330px;
+
+    .splide__arrow svg {
+      fill: $purple;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .splide__slide {
+    height: 500px;
+  }
+
+  .splide__item .splide__item__title .splide__item__text::before {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 562px) {
+  .main {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    
+  }
+  .splide__slide {
+    padding-right: 0;
+  }
+}
