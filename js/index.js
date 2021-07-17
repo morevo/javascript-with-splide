@@ -18,5 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
     padding: {
       right: "80px",
     },
+
   }).mount();
 });
