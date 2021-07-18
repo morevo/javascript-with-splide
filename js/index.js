@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
     pauseOnHover: false,
     waitForTransition: false,
     pagination: false,
-    width: "820px",
+    width: "930px",
+    height: "auto",
     padding: {
       right: "80px",
     },
