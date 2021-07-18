@@ -254,8 +254,16 @@ h6 {
 }
 
 @media (max-width: 670px) {
-  .splide__item .splide__item__inner {
-    height: auto;
+
+  .splide__item {
+
+    .splide__item__inner {
+      height: auto;
+    }
+
+    .splide__item__title .splide__item__text {
+      line-height: 18px;
+    }
   }
 }
 
@@ -306,6 +314,10 @@ h6 {
 
     .splide__item__inner .splide__item__name h3 {
       font-size: 10px;
+    }
+
+    .splide__item__title .splide__item__text {
+      line-height: 15px;
     }
 
   }
