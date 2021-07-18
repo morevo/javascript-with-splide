@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
     classes: {
       arrows: "splide__arrows-position",
       arrow: "splide__arrow",
-      prev: "splide__arrow--prev",
-      next: "splide__arrow--next",
     },
     type: "slide",
     autoplay: true,
