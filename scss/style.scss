@@ -254,9 +254,7 @@ h6 {
 }
 
 @media (max-width: 670px) {
-
   .splide__item {
-
     .splide__item__inner {
       height: auto;
     }
@@ -301,7 +299,6 @@ h6 {
   }
 
   .splide__item {
-
     .splide__item__inner {
       padding-left: 1rem;
       padding-top: 1rem;
@@ -319,8 +316,5 @@ h6 {
     .splide__item__title .splide__item__text {
       line-height: 15px;
     }
-
   }
-
-
 }
