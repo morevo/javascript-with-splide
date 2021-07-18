@@ -195,9 +195,6 @@ h6 {
 @media (max-width: 1020px) {
   .splide__item__text {
     font-size: 12px;
-  }
-
-  .splide__item__text {
     line-height: 12px;
   }
 }
@@ -226,13 +223,9 @@ h6 {
 }
 
 @media (max-width: 710px) {
-
-  .main .main__splide__title {
-    font-size: 30px;
-  }
-
   .main .main__splide__title {
     margin-bottom: 0;
+    font-size: 30px;
   }
 
   .splide__arrows-position {
@@ -250,21 +243,20 @@ h6 {
     height: 500px;
   }
 
-  .splide__item .splide__item__title .splide__item__text::before {
-    margin-left: 1rem;
-  }
-
-  .splide__item .splide__item__inner .splide__item__name h3 {
-    font-size: 12px;
+  .splide__item {
+    .splide__item__inner .splide__item__name h3 {
+      font-size: 12px;
+    }
+    .splide__item__title .splide__item__text::before {
+      margin-left: 1rem;
+    }
   }
 }
 
 @media (max-width: 670px) {
-
   .splide__item .splide__item__inner {
     height: auto;
   }
-  
 }
 
 @media (max-width: 562px) {
@@ -275,4 +267,40 @@ h6 {
   .splide__slide {
     padding-right: 0;
   }
+}
+
+@media (max-width: 470px) {
+  .splide__item__text {
+    font-size: 10px;
+    line-height: 12;
+  }
+  .main {
+    .main__splide__title {
+      font-size: 24px;
+    }
+  }
+
+  .splide__arrows-position {
+    width: 70px;
+    top: -12px;
+    right: -260px;
+
+    .splide__arrow svg {
+      fill: $purple;
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  .splide__item {
+    .splide__item__title .splide__item__text::before {
+      margin: 0 0.8rem;
+    }
+
+    .splide__item__inner .splide__item__name h3 {
+      font-size: 10px;
+    }
+  }
+
+
 }
