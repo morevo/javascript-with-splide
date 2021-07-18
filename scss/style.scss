@@ -186,6 +186,10 @@ h6 {
   .splide__item .splide__item__inner {
     width: auto;
   }
+
+  .splide__slide {
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 1020px) {
@@ -259,10 +263,6 @@ h6 {
 
   .splide__item .splide__item__inner {
     height: auto;
-  }
-
-  .splide__slide {
-    padding-right: 0;
   }
   
 }
